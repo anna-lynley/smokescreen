@@ -1,6 +1,6 @@
 @font-face {
   font-family: loudBeats;
-  src: url(/fonts/LoudBeats.ttf);
+  src: url(fonts/LoudBeats.ttf);
 }
 
 * {
@@ -34,9 +34,13 @@ body {
 }
 
 .content {
-  background-color: #ddd;
+  background-color: #8ff2d4;
+  background-image: url(images/smoke-visions-white-stencil.png);
+background-size: 100%, 100%;
   padding: 10px;
-  height: 200px; /* Should be removed. Only for demonstration */
+  height: 100%; 
+  width: 100%;
+  container-type: inline-size;
 }
 
 .footer {
@@ -46,4 +50,14 @@ body {
 
 #festival-title {
   font-family: loudBeats, Courier New, Arial, Helvetica, sans-serif;
+  font-size:15cqw;
+  display: flex;
+  margin: auto;
+}
+
+h1, h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
